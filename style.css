@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: #777;
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    background-image:
+    linear-gradient(
+        to right bottom, rgba(167,199,220,0.1),
+        rgba(133,178,211,1)),
+        url("img/img1.jpg");
+
+    background-size: cover;
+    background-position: top; /* tout se déforme sauf le top, ça cible pour garder une belle photo*/
+
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+h2 {
+    font-size: 1rem;
+    letter-spacing: 1rem;
+    color: wheat;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
